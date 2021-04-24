@@ -20,3 +20,26 @@ For math or logic, just need to make sure you abstract and prove with steps defi
 5. State if win or lose
 6. Start next set by 30 cards
 7. Report results and start over
+
+# As of 04/24/2021
+* Created anwser box
+* Created display
+* Created shuffle
+* Created answer key
+* Bootstrap 5 added
+* Checked anwser
+* Working on next set
+## Waiting for with node
+* Score
+* Start over
+* Converted to pdf2png
+* Load into folder
+
+# Shuffle, Anwser, Check
+a order           1,2,3,4,5,6,7,8,9,10
+b position        8,1,4,10,3,2,7,9,6,5
+c (even) answer   2,4,6,8,10
+d (odd)  question 1,3,5,7,9
+e d               6,3,9,1,4
+f choice          6,3,9,2,4
+g result          y,y,y,n,y 
