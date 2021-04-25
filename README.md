@@ -47,7 +47,7 @@ line       | Instruction
 # Setup
 language   | ends      | purpose
 -----------|-----------|----------
-browser    | client    | explore
+browser    | client    | explore - google
 html       | front     | structure
 xml        | front     | rule
 latex      | front     | document
@@ -55,12 +55,13 @@ css        | front     | style
 sql        | user      | query
 perl       | user      | search
 js         | user      | script
-clisp      | back      | think (lisp)
-ts         | back      | program (c#)
+clisp      | back      | think (lisp) - nasa
+ts         | back      | program (c#) - microsoft
+c#         | back      | hack - microsoft
 php        | server    | serve
-node       | server    | run
-powershell | shell     | configure
-platform   | system    | operate
+node       | server    | run - google
+powershell | shell     | configure - microsoft
+platform   | system    | operate - microsoft
 z80        | processor | assemble
 binary     | computer  | act
 physics    | universe  | interact
