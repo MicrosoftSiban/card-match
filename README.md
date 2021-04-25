@@ -12,7 +12,7 @@ set | description     | values
 
 # Organization
 ## Sequence
-![typescript-application](https://user-images.githubusercontent.com/58202540/115989180-ad934580-a5ac-11eb-957d-544c510a74c4.png)
+![typescript-application (1)](https://user-images.githubusercontent.com/58202540/116008166-adbe3000-a602-11eb-8e83-5a3c2ff2d042.png)
 
 
 ## Task Management
