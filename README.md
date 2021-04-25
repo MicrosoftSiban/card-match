@@ -47,23 +47,38 @@ set | description     | values
  g  | result          | y,y,y,n,y 
 
 # Setup
-language | ends   | purpose
----------|--------|----------
-browser  | client | explore
-html     | front  | structure
-xml      | front  | rule
-latex    | front  | document
-css      | front  | style
-sql      | user   | query
-perl     | user   | search
-clisp    | user   | think (lisp)
-js       | user   | script
-ts       | back   | program (c#)
-node     | server | run
+language | ends      | purpose
+---------|-----------|----------
+browser  | client    | explore
+html     | front     | structure
+xml      | front     | rule
+latex    | front     | document
+css      | front     | style
+sql      | user      | query
+perl     | user      | search
+clisp    | user      | think (lisp)
+js       | user      | script
+ts       | back      | program (c#)
+node     | server    | run
+z80      | processor | assemble
+binary   | computer  | act
+physics  | universe  | interact
 
+# Run Sequence
 browser --> index.html --> style.css --> index.js (browser) --> app.js (client) --> main.ts
-             
-                                                                
+
+# Task Management
+Data       | Title
+-----------|------------
+executable | Function
+folders    | Project     
+folder     | Assignment  
+file       | Task
+head       | Note
+block      | Step
+line       | Instruction
+
+# Card Match Project
 * card-match/           
   * html/               
     * index.html        
@@ -76,7 +91,7 @@ browser --> index.html --> style.css --> index.js (browser) --> app.js (client) 
       * cards.js         
     * configuration.js 
   * ts/                
-    * ?.ts              
+    * main.ts              
       * convert/          
         * split.ts         
         * process.ts
