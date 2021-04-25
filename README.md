@@ -54,9 +54,10 @@ latex      | front     | document
 css        | front     | style
 sql        | user      | query
 perl       | user      | search
-clisp      | user      | think (lisp)
 js         | user      | script
+clisp      | back      | think (lisp)
 ts         | back      | program (c#)
+php        | server    | serve
 node       | server    | run
 powershell | shell     | configure
 z80        | processor | assemble
