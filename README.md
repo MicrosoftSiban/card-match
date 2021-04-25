@@ -51,6 +51,8 @@ language | ends   | purpose
 ---------|--------|----------
 browser  | client | explore
 html     | front  | structure
+xml      | front  | rule
+latex    | front  | document
 css      | front  | style
 sql      | user   | query
 perl     | user   | search
