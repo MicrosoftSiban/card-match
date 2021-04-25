@@ -65,18 +65,18 @@ browser --> index.html --> style.css --> index.js (browser) --> app.js (client)
                                                                 configuration.js
                                                                 
 * card-match/           
- * html/               
-  * index.html        
- * css/               
-  * style.css         
- * js/                
-  * app.js            
-  * flashcards/       
-   * deal.js          
-   * cards.js         
-   * configuration.js 
- * ts/                
-  * ?.ts              
-   * convert/          
-    * split.ts         
-    * process.ts
+  * html/               
+    * index.html        
+  * css/               
+    * style.css         
+  * js/                
+    * app.js            
+    * flashcards/       
+      * deal.js          
+      * cards.js         
+    * configuration.js 
+  * ts/                
+    * ?.ts              
+      * convert/          
+        * split.ts         
+        * process.ts
