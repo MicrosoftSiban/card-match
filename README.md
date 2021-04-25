@@ -45,19 +45,20 @@ line       | Instruction
         * process.ts
 
 # Setup
-language | ends      | purpose
----------|-----------|----------
-browser  | client    | explore
-html     | front     | structure
-xml      | front     | rule
-latex    | front     | document
-css      | front     | style
-sql      | user      | query
-perl     | user      | search
-clisp    | user      | think (lisp)
-js       | user      | script
-ts       | back      | program (c#)
-node     | server    | run
-z80      | processor | assemble
-binary   | computer  | act
-physics  | universe  | interact
+language   | ends      | purpose
+-----------|-----------|----------
+browser    | client    | explore
+html       | front     | structure
+xml        | front     | rule
+latex      | front     | document
+css        | front     | style
+sql        | user      | query
+perl       | user      | search
+clisp      | user      | think (lisp)
+js         | user      | script
+ts         | back      | program (c#)
+node       | server    | run
+powershell | shell     | configure
+z80        | processor | assemble
+binary     | computer  | act
+physics    | universe  | interact
