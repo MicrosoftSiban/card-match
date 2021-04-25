@@ -54,15 +54,13 @@ html     | front  | structure
 css      | front  | style
 sql      | user   | query
 perl     | user   | search
-clisp    | user   | think
+clisp    | user   | think (lisp)
 js       | user   | script
-ts       | back   | program
+ts       | back   | program (c#)
 node     | server | run
 
-browser --> index.html --> style.css --> index.js (browser) --> app.js (client)
-                                                                deal.js
-                                                                cards.js
-                                                                configuration.js
+browser --> index.html --> style.css --> index.js (browser) --> app.js (client) --> main.ts
+             
                                                                 
 * card-match/           
   * html/               
