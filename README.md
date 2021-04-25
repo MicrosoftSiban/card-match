@@ -16,26 +16,26 @@ set | description     | values
 
 
 ## Task Management
-Data       | Title
------------|------------
-executable | Function
-folders    | Project     
-folder     | Assignment  
-file       | Task
-head       | Note
-block      | Step
-line       | Instruction
+Data       | Title       | Depth
+-----------|-------------|--------
+executable | Function    | 0
+folders    | Project     | 1
+folder     | Assignment  | 2
+file       | Task        | 3
+head       | Note        | 3
+block      | Step        | 3
+line       | Instruction | 3
 
 ### Card Match
-* card-match/           
-  * html/               
-    * index.html        
+* card-match/ (FUNCTION)
+  * html/ (PROJECT)
+    * index.html (TASK)     
   * css/               
     * style.css         
   * js/                
     * app.js            
-    * flashcards/       
-      * deal.js          
+    * flashcards/ (ASSIGNMENT)       
+      * deal.js (TASK)
       * cards.js         
     * configuration.js 
   * ts/                
