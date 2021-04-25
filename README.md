@@ -60,6 +60,7 @@ ts         | back      | program (c#)
 php        | server    | serve
 node       | server    | run
 powershell | shell     | configure
+platform   | system    | operate
 z80        | processor | assemble
 binary     | computer  | act
 physics    | universe  | interact
