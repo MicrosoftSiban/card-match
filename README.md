@@ -12,7 +12,8 @@ set | description     | values
 
 # Organization
 ## Sequence
-browser --> index.html --> style.css --> index.js (browser) --> app.js (client) --> main.ts
+![typescript-application](https://user-images.githubusercontent.com/58202540/115989180-ad934580-a5ac-11eb-957d-544c510a74c4.png)
+
 
 ## Task Management
 Data       | Title
