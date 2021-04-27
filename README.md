@@ -18,9 +18,9 @@ set | description     | values
 
 
 ## Sync
-HTTP      | jQuery / Angular | EJS      | Total
+REST      | jQuery / Angular | EJS      | Total
 ----------|------------------|----------|----------
-REST      | client / server  |          | WebSocket
+HTTP      | client / server  | browser  | WebSocket
 reload    | parser           | template | realtime
 (current) |                  |          | (goal)
 
