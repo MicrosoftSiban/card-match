@@ -15,6 +15,13 @@ set | description     | values
 ![typescript-application (1)](https://user-images.githubusercontent.com/58202540/116008166-adbe3000-a602-11eb-8e83-5a3c2ff2d042.png)
 
 
+## Sync
+HTTP      | ?     | EJS      | Total
+----------|-------|----------|----------
+REST      |       |          | WebSocket
+reload    | parse | template | realtime
+(current) |       |          | (goal)
+
 ## Task Management
 Data       | Title       | Depth
 -----------|-------------|--------
