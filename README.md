@@ -18,11 +18,11 @@ set | description     | values
 
 
 ## Sync
-HTTP      | ?     | EJS      | Total
-----------|-------|----------|----------
-REST      |       |          | WebSocket
-reload    | parse | template | realtime
-(current) |       |          | (goal)
+HTTP      | jQuery / Angular | EJS      | Total
+----------|------------------|----------|----------
+REST      | client / server  |          | WebSocket
+reload    | parser           | template | realtime
+(current) |                  |          | (goal)
 
 ## Task Management
 Data       | Title       | Depth
