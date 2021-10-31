@@ -1,0 +1,12 @@
+{
+  "name": "Name",
+  "description": "Description",
+  "website": "https://github.com/abakasam",
+  "repository": "https://github.com/Sammight/heroku",
+  "stack": "heroku-20",
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs"
+    }
+  ]
+}
