@@ -3,6 +3,7 @@ LABEL maintainer="Sam Weddington"
 WORKDIR /app
 COPY . /app
 RUN npm install
+RUN npm start
 EXPOSE 8086
 EXPOSE $PORT
-CMD ["npm", "start"]
+CMD [""]
