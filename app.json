@@ -1,0 +1,11 @@
+{
+  "name": "Fixing Root for Heroku Maintained Container",
+  "description": "Create a new stack without sudo error",
+  "website": "https://github.com/abakasam",
+  "repository": "https://github.com/Sammight/heroku",
+  "stack": {
+      "default": false,
+      "name": "heroku-20",
+      "state": "public",
+  }
+}
