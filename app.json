@@ -1,6 +1,6 @@
 {
-  "name": "Fixing Root for Heroku Maintained Container",
-  "description": "Create a new stack without sudo error",
+  "name": "Card Match",
+  "description": "Match flashcards to memorize",
   "website": "https://github.com/abakasam",
   "repository": "https://github.com/abakasam/card-match",
   "stack": {
