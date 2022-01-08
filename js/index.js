@@ -1,3 +1,5 @@
+alert('hello')
+
 var site = {
     'loading': function() {
         setTimeout(function() {

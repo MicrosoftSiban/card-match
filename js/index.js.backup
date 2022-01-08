@@ -1,0 +1,17 @@
+
+//var application = express()
+//var workingdirectory = path.join(__dirname, '.')
+//application.use(function(request, response) {
+//	express.static(workingdirectory)
+//})
+//console.log(workingdirectory)
+
+server.get('/', function(request, response) {
+    //response.send('<h1>Hello</h1>')
+	
+	var file = request.url
+	//console.log(request.url)
+	//response.sendFile(path.join(__dirname, '../html/' + request.url))
+	
+	send(response, file)
+})

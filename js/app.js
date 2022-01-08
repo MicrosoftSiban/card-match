@@ -43,7 +43,7 @@ cards.load = function(set) {
     }
     for(var index = 0; index < 10; index++) {
         var image = document.createElement('img')
-        image.src = 'cards/' + 'flashcards-page-' + cards.identify((index + 1) + (set * 10)) + '.jpg'  
+        image.src = 'cards/' + 'flashcards-page-' + cards.identify((index + 1) + (set * 10)) + '.jpg' 
         var card = document.createElement('div')
         card.setAttribute('name', 'card')
         card.className = 'col'
