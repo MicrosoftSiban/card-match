@@ -1,0 +1,108 @@
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.82.0">
+    <title>Fixed top navbar example · Bootstrap v5.0</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/navbar-fixed/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+	
+	    
+    <!-- Custom styles for this template -->
+    <link href="js/css/navbar-top-fixed.css" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet"></link>
+	
+	<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.82.0">
+    <title>Fixed top navbar example · Bootstrap v5.0</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/navbar-fixed/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="../css/navbar-top-fixed.css" rel="stylesheet">
+
+    <script src="../js/index.js"></script>
+    <link href="../css/style.css" rel="stylesheet"></link>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    	<div class="navbar-brand">Card Match</div>
+    	<div id="configuration" class="btn-group">
+    		<button class="btn btn-primary" id="button-check">Check Anwsers</button>
+    		<button class="btn btn-primary" id="button-over">Start Over</button>
+    		<button class="btn btn-primary" id="button-next">Next Set</button>
+      	</div>
+		<form action="http://localhost:8086/upload" method="post" enctype="multipart/form-data">
+			<input type="file" name="filetoupload">
+			<input type="submit" value="Upload">
+		</form>
+      	<div id="box"></div>
+    </nav>
+    
+
+
+<main class="container">
+  <div class="bg-light p-5 rounded">
+    <div id="show" class="row">
+    
+      <div id="card-set" class="row"></div>
+  </div>
+  </div>
+</main>
+
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>

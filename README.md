@@ -1,2 +1,1 @@
-0.1 is a web application, node js/app.js
-0.2 is an ionic web application, ionic serve
+### :point_right: This app base repo has moved to the [ionic-team/starters](https://github.com/ionic-team/starters/tree/master/ionic1/base) repo! :point_left:
