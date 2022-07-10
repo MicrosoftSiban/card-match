@@ -12,6 +12,6 @@
     "ionic": "1.x"
   },
   "scripts": {
-    "start": "echo "hello"
+    "start": "echo "hello""
   }
 }
